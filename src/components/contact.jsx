@@ -137,7 +137,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-discord"></i>
+                      <i className="fab fa-discord"></i>
                     </a>
                   </li>
                 </ul>
