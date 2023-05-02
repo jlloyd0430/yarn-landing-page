@@ -127,7 +127,7 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-globe"></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
@@ -137,7 +137,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-discord"></i>
+                      <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                 </ul>
