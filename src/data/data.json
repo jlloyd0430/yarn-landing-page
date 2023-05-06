@@ -17,19 +17,18 @@
   },
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Chat Messaging",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-magic",
+      "name": "Web3 Integrations",
+      "text": "Be both verifiable and anonymous at the same time with Discord and wallet authorization."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
+      "icon": "fa-plug",
+      "name": "Empower & Connect",
+      "text": "Connect, network, and chat with hirers, freelancers, founders, friends, colleagues, and companies." },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Networking",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa-credit-card-alt",
+      "name": "Payments",
+      "text": "Crypto Payment options,"
     },
     {
       "icon": "fa fa-language",
@@ -72,9 +71,9 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa-commenting",
       "title": "Chat Messaging",
-      "text": "users can send messages directly to anyone."
+      "text": "users can send messages directly to connect with other freelancers, projects or companies."
     },
     {
       "icon": "fa fa-bullhorn",
