@@ -22,11 +22,11 @@
       "text": "Be both verifiable and anonymous at the same time with Discord and wallet authorization."
     },
     {
-      "icon": "fa-plug",
+      "icon": "fa fa-plug",
       "name": "Empower & Connect",
       "text": "Connect, network, and chat with hirers, freelancers, founders, friends, colleagues, and companies." },
     {
-      "icon": "fa-credit-card-alt",
+      "icon": "fa fa-credit-card-alt",
       "name": "Payments",
       "text": "Crypto Payment options,"
     },
@@ -71,7 +71,7 @@
   },
   "Features": [
     {
-      "icon": "fa-commenting",
+      "icon": "fa fa-commenting",
       "title": "Chat Messaging",
       "text": "users can send messages directly to connect with other freelancers, projects or companies."
     },
