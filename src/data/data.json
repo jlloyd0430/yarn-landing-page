@@ -25,18 +25,18 @@
       "name": "Empower & Connect",
       "text": "Connect, network, and chat with hirers, freelancers, founders, friends, colleagues, and companies." },
     {
-      "icon": "fa fa-credit-card-alt",
+      "icon": "fa fa-credit-card",
       "name": "Payments",
       "text": "Crypto Payment options,"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-clipboard",
+      "name": "Post Jobs",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-search",
+      "name": "Find",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
