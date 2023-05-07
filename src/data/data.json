@@ -71,7 +71,7 @@
   },
   "Features": [
     {
-      "icon": "fas fa-comments",
+      "icon": "fa fa-comments",
       "title": "Chat Messaging",
       "text": "users can send messages directly to connect with other freelancers, projects or companies."
     },
