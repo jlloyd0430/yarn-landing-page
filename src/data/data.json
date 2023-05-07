@@ -22,7 +22,7 @@
     },
     {
       "icon": "fa fa-plug",
-      "name": "Empower & Connect",
+      "name": "Networking",
       "text": "Connect, network, and chat with hirers, freelancers, founders, friends, colleagues, and companies." },
     {
       "icon": "fa fa-credit-card",
@@ -32,7 +32,7 @@
     {
       "icon": "fa fa-clipboard",
       "name": "Post Jobs",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Post a service that you provide and customize your post with an image, tags, information,pricing and different size packages for different types of services."
     },
     {
       "icon": "fa fa-search",
