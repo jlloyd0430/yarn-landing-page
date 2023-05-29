@@ -27,22 +27,7 @@
     {
       "icon": "fa fa-credit-card",
       "name": "Payments",
-      "text": "Crypto Payment options,"
-    },
-    {
-      "icon": "fa fa-clipboard",
-      "name": "Post Jobs",
-      "text": "Post a service that you provide and customize your post with an image, tags, information,pricing and different size packages for different types of services."
-    },
-    {
-      "icon": "fa fa-search",
-      "name": "Find",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "both Crypto and Fiat Payment options,"
     }
   ],
   "Testimonials": [
@@ -55,11 +40,6 @@
       "img": "img/testimonials/atlas.JPG",
       "text": "\" I am very thankful that I got to know the team at Galacticats only a few months after I joined web3 with my company. Since the beginning, we've been working together on various designs and networking with whoever we can! Through them, I was able to make a name for my marketing agency on web3 and doing network with people I never dreamed of doing. Thank you so very much!!! .\"",
       "name": "Matheus CEO, Atlas Social Media"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
     }
   ],
   "Contact": {
