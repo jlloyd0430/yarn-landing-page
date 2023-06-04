@@ -47,9 +47,9 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Register for Yarn Beta</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
+                  Please fill out the form below to send us an email if you want to register to be on the beta list! test out yarn.soultions in beta and be some of the first users on the platoform. We will
                   get back to you as soon as possible.
                 </p>
               </div>
