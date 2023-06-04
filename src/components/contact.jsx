@@ -1,36 +1,45 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
+ import { useState } from "react";
 import React from "react";
 
 const initialState = {
-  name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+    try {
+      const response = await fetch("https://formspree.io/f/mqkovqpz", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        body: JSON.stringify({
+          email,
+          message,
+        }),
+      });
+      if (response.ok) {
+        console.log("Email sent successfully!");
+        clearState();
+      } else {
+        console.log("Failed to send email. Please try again later.");
+      }
+    } catch (error) {
+      console.log("An error occurred while sending the email:", error);
+    }
   };
+
   return (
     <div>
       <div id="contact">
@@ -44,22 +53,14 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form
+                name="sentMessage"
+                validate
+                onSubmit={handleSubmit}
+                action="https://formspree.io/f/mqkovqpz"
+                method="POST"
+              >
                 <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
