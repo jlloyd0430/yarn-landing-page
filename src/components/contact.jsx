@@ -100,17 +100,17 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-globe"></i> Website
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.website : "loading"}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-twitter"></i> Discord
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.twitter : "loading"}
               </p>
             </div>
             <div className="contact-item">
