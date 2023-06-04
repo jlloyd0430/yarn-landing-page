@@ -61,6 +61,20 @@ export const Contact = (props) => {
                 method="POST"
               >
                 <div className="row">
+                    <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        placeholder="Project/Name"
+                        required
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
