@@ -100,22 +100,6 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-globe"></i> Website
-                </span>
-                {props.data ? props.data.website : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-twitter"></i> Discord
-                </span>{" "}
-                {props.data ? props.data.twitter : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
