@@ -18,7 +18,7 @@
     {
       "icon": "fa fa-magic",
       "name": "Web3 Integrations",
-      "text": "Be both verifiable and anonymous at the same time with Discord and wallet authorization."
+      "text": "Be verifiable with Discord and/or email logins and connect wallet functionality."
     },
     {
       "icon": "fa fa-plug",
@@ -27,7 +27,7 @@
     {
       "icon": "fa fa-credit-card",
       "name": "Payments",
-      "text": "both Crypto and Fiat Payment options,"
+      "text": "Enjoy having both Crypto and Fiat Payment options,"
     }
   ],
   "Testimonials": [
